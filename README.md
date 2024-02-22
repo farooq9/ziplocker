@@ -11,7 +11,7 @@ Automatic Password Generation: For convenience, ZIPLocker generates a strong pas
 
 <!-- Add this code snippet where you want the "Copy Code" button to appear -->
 <div>
-  <button class="copy-button" onclick="copyCode()">Copy Code</button>
+  <button class="copy-button" onclick="copyCode()"></button>
   <pre><code class="language-python">
   python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ...
 --zipfile, -z: Specify the ZIP file to create or update.
@@ -26,15 +26,15 @@ Colorama library (pip install colorama)
 ## How to Run
 Clone the repository.
 Install dependencies using pip install -r requirements.txt.
-Run the script using Python: python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ....
+Run the script using Python: 
+python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ....
 ## Example
 <div>
-  <button class="copy-button" onclick="copyCode()">Copy Code</button>
+  <button class="copy-button" onclick="copyCode()"></button>
   <pre><code class="language-python">
   python ZIPLocker.py --zipfile archive.zip --addfile document.txt image.jpg
   </code></pre>
 </div>
-bash
 
 ## Note
 Ensure that strong passwords are used to enhance the security of your encrypted ZIP files.
