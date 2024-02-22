@@ -28,9 +28,14 @@ Clone the repository.
 Install dependencies using pip install -r requirements.txt.
 Run the script using Python: python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ....
 ## Example
+<div>
+  <button class="copy-button" onclick="copyCode()">Copy Code</button>
+  <pre><code class="language-python">
+  python ZIPLocker.py --zipfile archive.zip --addfile document.txt image.jpg
+  </code></pre>
+</div>
 bash
-Copy code
-python ZIPLocker.py --zipfile archive.zip --addfile document.txt image.jpg
+
 ## Note
 Ensure that strong passwords are used to enhance the security of your encrypted ZIP files.
 Forgetting the password will result in permanent loss of access to the encrypted data.
