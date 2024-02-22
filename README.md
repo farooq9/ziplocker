@@ -7,12 +7,37 @@ ZIPLocker is a Python program designed to create or update encrypted ZIP files s
 Strong Encryption: ZIPLocker employs AES encryption to secure your ZIP files, providing robust protection against unauthorized access.
 Password Strength Check: Before encrypting the ZIP file, ZIPLocker verifies the password strength to ensure it meets minimum security requirements.
 Automatic Password Generation: For convenience, ZIPLocker generates a strong password if the user-provided password is deemed weak.
-Usage
+## Usage
+
+<!-- Add this code snippet where you want the "Copy Code" button to appear -->
+<div>
+  <button class="copy-button" onclick="copyCode()">Copy Code</button>
+  <pre><code class="language-python">
+  python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ...
+--zipfile, -z: Specify the ZIP file to create or update.
+--addfile, -a: Specify one or more files to add to the ZIP file(s)
+  </code></pre>
+</div>
+
+<script>
+function copyCode() {
+  const codeElement = document.querySelector('code');
+  const textArea = document.createElement('textarea');
+  textArea.textContent = codeElement.textContent;
+  document.body.append(textArea);
+  textArea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textArea);
+  alert('Code copied to clipboard!');
+}
+</script>
+
+
 php
 Copy code
 python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ...
 --zipfile, -z: Specify the ZIP file to create or update.
---addfile, -a: Specify one or more files to add to the ZIP file(s).
+--addfile, -a: Specify one or more files to add to the ZIP file(s)
 Prerequisites
 Python 3.x
 PyZipper library (pip install pyzipper)
