@@ -25,6 +25,6 @@ Run the script using Python: python ZIPLocker.py --zipfile <ZIP_FILE> --addfile 
 bash
 Copy code
 python ZIPLocker.py --zipfile archive.zip --addfile document.txt image.jpg
-# Note
+## Note
 Ensure that strong passwords are used to enhance the security of your encrypted ZIP files.
 Forgetting the password will result in permanent loss of access to the encrypted data.
