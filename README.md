@@ -20,13 +20,13 @@ Automatic Password Generation: For convenience, ZIPLocker generates a strong pas
 </div>
 
 ## Prerequisites
-Python 3.x
-PyZipper library (pip install pyzipper)
+Python 3.x\
+PyZipper library (pip install pyzipper)\
 Colorama library (pip install colorama)
 ## How to Run
-Clone the repository.
-Install dependencies using pip install -r requirements.txt.
-Run the script using Python: 
+Clone the repository.\
+Install dependencies using pip install -r requirements.txt.\
+Run the script using Python:\
 python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ....
 ## Example
 <div>
