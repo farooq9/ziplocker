@@ -19,26 +19,7 @@ Automatic Password Generation: For convenience, ZIPLocker generates a strong pas
   </code></pre>
 </div>
 
-<script>
-function copyCode() {
-  const codeElement = document.querySelector('code');
-  const textArea = document.createElement('textarea');
-  textArea.textContent = codeElement.textContent;
-  document.body.append(textArea);
-  textArea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textArea);
-  alert('Code copied to clipboard!');
-}
-</script>
-
-
-php
-Copy code
-python ZIPLocker.py --zipfile <ZIP_FILE> --addfile <FILE1> <FILE2> ...
---zipfile, -z: Specify the ZIP file to create or update.
---addfile, -a: Specify one or more files to add to the ZIP file(s)
-Prerequisites
+## Prerequisites
 Python 3.x
 PyZipper library (pip install pyzipper)
 Colorama library (pip install colorama)
